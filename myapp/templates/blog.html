@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+</head>
+<body>
+    <a href="{% url 'home' %}">Home</a>
+    <a href="{% url 'about' %}">About Us</a>
+    <a href="{% url 'services' %}">Services</a>
+    <a href="{% url 'blog' %}">Blog</a>
+    <a href="{% url 'careers' %}">Careers</a>
+    <a href="{% url 'contact' %}">Contact Us</a>
+    <h2>This is blog page</h2>
+    <p><span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut similique tenetur pariatur iure nam. Voluptate, iure ipsum omnis repudiandae alias voluptatum accusantium, et cupiditate saepe dolorem nemo doloribus reprehenderit labore?
+    Temporibus animi nam, nisi tempore vel soluta, dicta cumque ipsum reiciendis aspernatur vitae quisquam incidunt suscipit fugit beatae sed facilis pariatur quis error. Consequuntur vitae, sunt repellat voluptas sapiente nobis!
+    Non corporis quisquam amet sed ratione distinctio explicabo fugiat mollitia assumenda asperiores? Accusamus, quia id ipsum dolorum, eos accusantium unde distinctio voluptas nam error necessitatibus? Enim ducimus quo nemo minus.
+    Soluta, voluptatum? Deserunt neque ea cumque provident quis blanditiis sunt exercitationem nobis quisquam totam suscipit iste illum, quae omnis, commodi aperiam amet vero possimus molestiae natus! Quibusdam veniam quo nam?
+    Quisquam aliquam non commodi iusto debitis consectetur enim delectus esse blanditiis saepe accusantium animi necessitatibus ducimus sit doloremque autem harum qui similique quis voluptate magnam, vel nulla. Fugiat, consectetur iste!
+    Tenetur expedita, veniam voluptatibus quas nostrum aliquam maiores error perferendis fugit modi? Vero voluptas, dolores obcaecati facilis maiores et est aspernatur nisi consectetur fugit quo autem earum nihil. Ipsa, omnis.
+    Saepe nisi suscipit accusantium, eligendi, amet nostrum libero animi mollitia magnam blanditiis architecto unde odit. Officiis esse qui nisi enim repellat? Vel et culpa facilis cupiditate adipisci optio animi architecto.</span></p>
+    <img src="{% static 'images/react.png' %}" alt="React" width="300" height="150">
+    <img src="{% static 'images/saf.png' %}" alt="Safaricom" width="300" height="150">
+
+
+</body>
+</html>

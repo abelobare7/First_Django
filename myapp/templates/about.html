@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+</head>
+<body>
+    <a href="{% url 'home' %}">Home</a>
+    <a href="{% url 'about' %}">About Us</a>
+    <a href="{% url 'services' %}">Services</a>
+    <a href="{% url 'blog' %}">Blog</a>
+    <a href="{% url 'careers' %}">Careers</a>
+    <a href="{% url 'contact' %}">Contact Us</a>
+    <h2>This is about us Page</h2>
+    <img src="{% static 'images/django.png' %}" alt="Django" width="300" height="150">
+    <img src="{% static 'images/java.png' %}" alt="Java" width="300" height="150">
+    
+</body>
+</html>

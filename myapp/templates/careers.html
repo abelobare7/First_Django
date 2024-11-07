@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Careers</title>
+</head>
+<body>
+    <a href="{% url 'home' %}">Home</a>
+    <a href="{% url 'about' %}">About Us</a>
+    <a href="{% url 'services' %}">Services</a>
+    <a href="{% url 'blog' %}">Blog</a>
+    <a href="{% url 'careers' %}">Careers</a>
+    <a href="{% url 'contact' %}">Contact Us</a>
+    <h2>Join Our Team</h2>
+
+    <img src="{% static 'images/js.png' %}" alt="JavaScript" width="300" height="150">
+    <img src="{% static 'images/lara.png' %}" alt="Laravel" width="300" height="150">
+    
+</body>
+</html>

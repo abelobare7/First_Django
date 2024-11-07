@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+</head>
+<body>
+    <a href="{% url 'home' %}">Home</a>
+    <a href="{% url 'about' %}">About Us</a>
+    <a href="{% url 'services' %}">Services</a>
+    <a href="{% url 'blog' %}">Blog</a>
+    <a href="{% url 'careers' %}">Careers</a>
+    <a href="{% url 'contact' %}">Contact Us</a>
+    <h2>This is Services Page</h2>
+    <p><span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae dignissimos porro voluptatum sapiente ab voluptatibus quaerat quod autem harum optio, minus minima a numquam alias error totam? Nesciunt, accusamus nam?
+    Perferendis ad, debitis ut iusto delectus, quae voluptatem nobis esse sint sequi repellendus! Fugit, consequuntur corporis ipsa rerum, cupiditate minima beatae maiores ullam et esse id nobis. Earum, doloribus quia.
+    Nulla iure veniam, ex debitis eaque voluptatem minima. Voluptas tempore laboriosam soluta ea maxime consectetur in culpa nostrum. Amet error omnis accusantium commodi esse eum eius quod, accusamus modi perferendis.</span></p>
+    <img src="{% static 'images/kotlin.jpeg' %}" alt="Kotlin" width="300" height="150">
+    <img src="{% static 'images/django.png' %}" alt="Django" width="300" height="150">
+
+</body>
+</html>
